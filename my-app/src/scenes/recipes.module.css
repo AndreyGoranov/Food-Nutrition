@@ -1,0 +1,9 @@
+*{
+    font-family: inherit;
+}
+
+.recipeContainer {
+    background-color: rgb(193, 251, 138);
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}

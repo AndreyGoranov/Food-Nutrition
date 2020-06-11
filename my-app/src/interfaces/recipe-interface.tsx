@@ -6,6 +6,7 @@ export interface Recipe {
     healthLabels: Array<string>,
     image: string,
     ingredientLines: Array<string>,
+    totalNutrients: object,
     label: string,
     mealType: Array<string>,
     shareAs: string,

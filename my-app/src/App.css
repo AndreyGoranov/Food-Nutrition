@@ -5,6 +5,7 @@
   background-size: cover;
   border-top: 25px solid green;
   border-bottom: 25px solid green;
+  overflow: hidden;
 }
 
 .row {

@@ -7,6 +7,7 @@ import { SearchValue } from './interfaces/search-interface'
 import Checkbox  from './components/checkbox'
 import MyContext from './AppContext'
 
+
 function App() {
   let appData;
   const history = useHistory();

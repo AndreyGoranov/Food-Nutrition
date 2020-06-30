@@ -6,7 +6,7 @@ import { dietLabels } from './helper/constants/diet-labels'
 import { SearchValue } from './interfaces/search-interface'
 import Checkbox  from './components/checkbox'
 import MyContext from './AppContext'
-
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   let appData;
@@ -84,8 +84,8 @@ function App() {
       {console.log('value', value)}
       <Form inline onSubmit={getSearch}>
         <FormControl name="searchText" type="text" placeholder="Dish, product, keyword..."  onChange={onChangeHandler} />
-        <Button type="submit" variant="success" className="search-button" disabled={!search.searchText}>Search</Button>
-        <Button variant="danger" onClick={() => setShowSearchExtension(!showSearchExtension)}>Specify search</Button>
+        <Button type="submit" variant="success" className="search-button mt-3 mt-sm-0" disabled={!search.searchText}>Search</Button>
+        <Button className="mt-3 mt-sm-0" variant="danger" onClick={() => setShowSearchExtension(!showSearchExtension)}>Specify search</Button>
       </Form>
         
       <Collapse in={showSearchExtension}>

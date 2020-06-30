@@ -2,7 +2,7 @@
     font-family: inherit;
 }
 .recipesSceneContainer {
-    background-color: gold;
+    background-image: linear-gradient(to right, #D7A9E3FF , #A8D5BAFF);
     justify-content: center;
     overflow: hidden;
 }
@@ -17,7 +17,7 @@ hr {
 }
 .recipeContainer {
     margin: 10px 5px;
-    background-color: lightblue;
+    background-color: #8BBEE8FF;
     background-repeat: no-repeat;
     background-size: cover;
     display: -webkit-box;
@@ -101,13 +101,12 @@ ul li::before {
 }
 
 .nutrientsContainer {
+    
     margin-bottom: 2rem;
 }
 
 .nutrientsInfoContainer {
     flex-direction: column;
-    margin-left: 1rem;
-    margin-right: 1rem;
 }
 
 .ingridientsContainer {
